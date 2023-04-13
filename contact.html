@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href=" /favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responceve.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Info School : the knowledge center </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">Info School</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Java
+                            Script</a>
+                        <a class="dropdown-item"
+                            href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap</a>
+                        <a class="dropdown-item"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started">Agular</a>
+                        <a class="dropdown-item"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/">Other</a>
+                        <a class="dropdown-item" href="/writetous.html">Write to Us </a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <button class="btn btn-outline-danger my-2 mx-2 my-sm-0" type="submit" data-target="#exampleModal"
+                data-toggle="modal">Sign In</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" data-target="#exampleModal2"
+                data-toggle="modal">Sign Up</button>
+        </div>
+    </nav>
+    <!-- Sign In Modal  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">User ID</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter ID/Mo.No./Email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your ID/Mo.No./Email
+                                with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sign up Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Creat an Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefault01">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01"
+                                    placeholder="First name" required>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefault02">Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
+                                    required>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefaultUsername">Username</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationDefaultUsername"
+                                        placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault03">City</label>
+                                <input type="text" class="form-control" id="validationDefault03" placeholder="City"
+                                    required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault04">State</label>
+                                <input type="text" class="form-control" id="validationDefault04" placeholder="State"
+                                    required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Pin Code</label>
+                                <input type="text" class="form-control" id="validationDefault05" placeholder="Pin"
+                                    required>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                aria-describedby="emailHelp" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your Email
+                                with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter Mobile No.</label>
+                            <input type="number" class="form-control" id="exampleInputMobile1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword3"
+                                placeholder="Confirm Password" required>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <label class="form-check-label" for="exampleCheck1">Student</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Create My Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact body  -->
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Contact Form</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-md-7 d-flex align-items-stretch">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h3 class="mb-4">Get in touch</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                    </div>
+                                    <form method="POST" id="contactForm" name="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="subject" id="subject"
+                                                        placeholder="Subject">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" id="message" cols="30"
+                                                        rows="7" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-5 d-flex align-items-stretch">
+                                <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+                                    <h3 class="mb-4 mt-md-4">Contact Us</h3>
+                                    <div class="dbox w-100 d-flex align-items-start">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-map-marker"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Address:</span> 198 21th Century Building, Ring Road, Surat 395008
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-phone"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Phone:</span> <a href="tel://8888888888">+91 8888888888</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-paper-plane"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Email:</span> <a href="https://mail.yahoo.com/"><span
+                                                        class="__cf_email__"
+                                                        data-cfemail="8ee7e0e8e1cef7e1fbfcfde7faeba0ede1e3">infoschool@ischool.co.in</span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center">
+                                            <span class="fa fa-globe"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p><span>Website</span> <a href="/index.html">infoschool.com</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v2b4487d741ca48dcbadcaf954e159fc61680799950996"
+        integrity="sha512-D/jdE0CypeVxFadTejKGTzmwyV10c1pxZk/AqjJuZbaJwGMyNHY3q/mTPWqMUnFACfCTunhZUVcd4cV78dK1pQ=="
+        data-cf-beacon='{"rayId":"7b6bdc16cb32a3af","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.3.0","si":100}'
+        crossorigin="anonymous"></script>
+
+
+    <!-- chat bot -->
+    <div class="chatbot" data-toggle="modal" data-target="#chatbot">
+        <img src="/chatbot.png.png" alt="">
+    </div>
+    <!--Chatbot Modal-->
+
+    <div class="modal fade" id="chatbot" tabindex="-1" role="dialog" aria-labelledby="chatbotTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Info School</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="chatbot-container">
+                        <div id="header">
+                            <h1>Chatbot</h1>
+                        </div>
+                        <div id="chatbot">
+                            <div id="conversation">
+                                <div class="chatbot-message">
+                                    <p class="chatbot-text">Hi! 👋 it's great to see you!</p>
+                                </div>
+                            </div>
+                            <form id="input-form">
+                                <message-container>
+                                    <input id="input-field" type="text" placeholder="Type your message here">
+                                    <button id="submit-button" type="submit">
+                                        <img class="send-icon" src="send-message.png" alt="">
+                                    </button>
+                                </message-container>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-2024 Info School, Pvt. Ltd. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="chatbot.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

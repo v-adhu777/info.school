@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href=" /favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responceve.css">
+    <title>Info School : the knowledge center </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">Info School</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Java
+                            Script</a>
+                        <a class="dropdown-item"
+                            href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap</a>
+                        <a class="dropdown-item"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started">Agular</a>
+                        <a class="dropdown-item"
+                            href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://developer.mozilla.org/en-US/">Other</a>
+                        <a class="dropdown-item" href="/writetous.html">Write to Us </a>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <button class="btn btn-outline-danger my-2 mx-2 my-sm-0" type="submit" data-target="#exampleModal"
+                data-toggle="modal">Sign In</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" data-target="#exampleModal2"
+                data-toggle="modal">Sign Up</button>
+        </div>
+    </nav>
+    <!-- Sign In Modal  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">User ID</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter ID/Mo.No./Email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your ID/Mo.No./Email
+                                with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sign up Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Creat an Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefault01">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01"
+                                    placeholder="First name" required>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefault02">Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
+                                    required>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationDefaultUsername">Username</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationDefaultUsername"
+                                        placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault03">City</label>
+                                <input type="text" class="form-control" id="validationDefault03" placeholder="City"
+                                    required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault04">State</label>
+                                <input type="text" class="form-control" id="validationDefault04" placeholder="State"
+                                    required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Pin Code</label>
+                                <input type="text" class="form-control" id="validationDefault05" placeholder="Pin"
+                                    required>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                aria-describedby="emailHelp" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your Email
+                                with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter Mobile No.</label>
+                            <input type="number" class="form-control" id="exampleInputMobile1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword3"
+                                placeholder="Confirm Password" required>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <label class="form-check-label" for="exampleCheck1">Student</label>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Create My Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Write to Us body  -->
+    <div class="contactus">
+        <h1>Write to Us</h1>
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Your Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your resone for Contactting Us</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1.Re-active my account.</option>
+                    <option>2.Unblock my account. </option>
+                    <option>3.Content Suggestion</option>
+                    <option>4.Content Request</option>
+                    <option>5.Feedback</option>
+                    <option>6.Other Resones</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Write your concern </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Feedback (Optional) </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <!-- chat bot -->
+    <div class="chatbot" data-toggle="modal" data-target="#chatbot">
+        <img src="/chatbot.png.png" alt="">
+    </div>
+    <!--Chatbot Modal-->
+
+    <div class="modal fade" id="chatbot" tabindex="-1" role="dialog" aria-labelledby="chatbotTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Info School</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="chatbot-container">
+                        <div id="header">
+                            <h1>Chatbot</h1>
+                        </div>
+                        <div id="chatbot">
+                            <div id="conversation">
+                                <div class="chatbot-message">
+                                    <p class="chatbot-text">Hi! 👋 it's great to see you!</p>
+                                </div>
+                            </div>
+                            <form id="input-form">
+                                <message-container>
+                                    <input id="input-field" type="text" placeholder="Type your message here">
+                                    <button id="submit-button" type="submit">
+                                        <img class="send-icon" src="send-message.png" alt="">
+                                    </button>
+                                </message-container>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-2024 Info School, Pvt. Ltd. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="chatbot.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

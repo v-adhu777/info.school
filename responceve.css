@@ -1,0 +1,27 @@
+@media screen and (max-width:800px) {
+    .chatbot img {
+        height: 5vh;
+        position: fixed;
+        right: 2vw;
+        bottom: 2vh;
+        z-index: 10;
+    }
+
+    .chatbot img:hover {
+        height: 6vh;
+    }
+
+    .aboutimg {
+        width: 40vw;
+        height: 20vh;
+
+    }
+
+    .aboutinfo {
+        width: 30vw;
+        margin: auto;
+        text-align: justify;
+    }
+
+
+}
